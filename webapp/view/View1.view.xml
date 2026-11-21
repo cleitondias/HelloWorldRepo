@@ -3,5 +3,6 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <Text text="Test Deploy CICD adn cTMS"></Text>
+        <Button text="Click here" press="onClick" />
     </Page>
 </mvc:View>

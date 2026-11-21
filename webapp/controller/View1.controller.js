@@ -5,6 +5,10 @@ sap.ui.define([
 
     return Controller.extend("demoapp.controller.View1", {
         onInit() {
+        },
+
+        onClick() {
+            sap.m.MessageToast.show("Button clicked!");
         }
     });
 });
